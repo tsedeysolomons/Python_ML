@@ -3,8 +3,8 @@ import numpy as np
 from sklearn.metrics import mean_squared_error, mean_absolute_error, r2_score, accuracy_score, f1_score
 
 # Actual and predicted values
-y_true = [100, 200, 300]
-y_pred = [110, 180, 290]
+y_true = [100, 200, 300,400,578]
+y_pred = [110, 180, 290,213,789]
 
 # Calculate metrics
 mae = mean_absolute_error(y_true, y_pred)
